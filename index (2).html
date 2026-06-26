@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Kukade | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cursor-glow"></div>
+  <div class="bg-grid"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-logo">AK<span class="dot">_</span></div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content reveal">
+      <p class="hero-tag">// Hello World</p>
+      <h1 class="hero-title">
+        I'm <span class="highlight">Aditya Kukade</span>
+      </h1>
+      <p class="hero-subtitle">Diploma in Computer Engineering Student</p>
+      <p class="hero-desc">
+        Building things with code — from logic-heavy programs to full database-driven applications.
+        Currently exploring software development, problem solving, and system design.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-header reveal">
+      <p class="section-tag">01 / About</p>
+      <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-content reveal">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Aditya Kukade"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="photo-placeholder">
+            <span>Add your photo<br>assets/profile.jpg</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>
+          I'm a third-year Diploma student in Computer Science Engineering with a strong interest in
+          programming, software development, and building practical applications that solve real problems.
+        </p>
+        <p>
+          I enjoy working across the stack — from writing efficient logic in C, C++, Java and Python,
+          to designing clean front-ends with HTML and CSS, and managing data with databases.
+          I'm constantly learning new tools and techniques to sharpen my craft as a developer.
+        </p>
+        <p>
+          When I'm not coding, I'm exploring new tech, working on personal projects, and preparing
+          myself for a career in the software industry.
+        </p>
+        <div class="about-info">
+          <div class="info-item">
+            <span class="info-label">Name</span>
+            <span class="info-value">Aditya Kukade</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Education</span>
+            <span class="info-value">Diploma in CS Engineering, 3rd Year</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Email</span>
+            <span class="info-value">adityakukade74@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Status</span>
+            <span class="info-value">Open to opportunities</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-header reveal">
+      <p class="section-tag">02 / Skills</p>
+      <h2 class="section-title">What I Work With</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <div class="skill-icon">C</div>
+        <h3>C</h3>
+        <p>Procedural programming, memory management & core logic fundamentals</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">C++</div>
+        <h3>C++</h3>
+        <p>Object-oriented programming, data structures & algorithms</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">JV</div>
+        <h3>Java</h3>
+        <p>OOP concepts, application development & problem solving</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">PY</div>
+        <h3>Python</h3>
+        <p>Scripting, automation & general purpose programming</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">&lt;/&gt;</div>
+        <h3>HTML</h3>
+        <p>Semantic markup & structuring web content</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">{ }</div>
+        <h3>CSS</h3>
+        <p>Responsive layouts, animations & modern UI styling</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-header reveal">
+      <p class="section-tag">03 / Projects</p>
+      <h2 class="section-title">Things I've Built</h2>
+    </div>
+    <div class="projects-grid reveal">
+      <div class="project-card">
+        <div class="project-number">01</div>
+        <h3>Calculator</h3>
+        <p>
+          A functional calculator application performing arithmetic operations with a clean,
+          easy-to-use interface — built to strengthen core logic and UI handling skills.
+        </p>
+        <div class="tech-tags">
+          <span>C++</span>
+          <span>Logic Building</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-number">02</div>
+        <h3>Database Management System</h3>
+        <p>
+          A system designed to store, manage and retrieve structured data efficiently,
+          demonstrating CRUD operations and database design principles.
+        </p>
+        <div class="tech-tags">
+          <span>Database</span>
+          <span>SQL</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-number">03</div>
+        <h3>Student Report Card System</h3>
+        <p>
+          An application to manage student records and generate report cards — calculating
+          grades, totals and percentages automatically from stored marks data.
+        </p>
+        <div class="tech-tags">
+          <span>Database</span>
+          <span>Java</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-header reveal">
+      <p class="section-tag">04 / Education</p>
+      <h2 class="section-title">My Academic Journey</h2>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Diploma in Computer Science Engineering</h3>
+          <p class="timeline-meta">3rd Year — Currently Pursuing</p>
+          <p>
+            Studying core computer science subjects including programming languages,
+            data structures, database management, and software development practices.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-header reveal">
+      <p class="section-tag">05 / Contact</p>
+      <h2 class="section-title">Let's Connect</h2>
+    </div>
+    <div class="contact-content reveal">
+      <p class="contact-text">
+        I'm currently looking for opportunities to learn, contribute and grow.
+        Feel free to reach out — I'd love to hear from you.
+      </p>
+      <a href="mailto:adityakukade74@gmail.com" class="btn btn-primary contact-email">
+        adityakukade74@gmail.com
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Aditya Kukade. Built with HTML & CSS.</p>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => obs.observe(el));
+
+    // Cursor glow
+    const glow = document.querySelector('.cursor-glow');
+    document.addEventListener('mousemove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top  = e.clientY + 'px';
+    });
+
+    // Card mouse-position glow
+    document.querySelectorAll('.skill-card, .project-card, .photo-frame, .timeline-content')
+      .forEach(card => {
+        card.addEventListener('mousemove', e => {
+          const r = card.getBoundingClientRect();
+          card.style.setProperty('--mouse-x', `${e.clientX - r.left}px`);
+          card.style.setProperty('--mouse-y', `${e.clientY - r.top}px`);
+        });
+      });
+
+    // Mobile menu
+    const toggle = document.getElementById('menuToggle');
+    const links  = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
